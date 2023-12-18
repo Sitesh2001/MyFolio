@@ -18,7 +18,7 @@ export const Profile = () => {
           <TextLoader/>
           </section>
           <section>
-            <Btn name = "Download Cv" styles = 'bg-transparent border text-black' hover = {hoverStyle}/>
+            <Btn name = "Download CV" styles = 'bg-transparent border text-black' hover = {hoverStyle}/>
             <Btn name = "Contact Me" sty = 'bg-slate-700 text-white hover:bg-slate-600'/>
           </section>
           <section className='flex gap-4 text-2xl'>

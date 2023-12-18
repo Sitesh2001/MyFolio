@@ -1,0 +1,126 @@
+{
+  "Frontend": [
+    {
+      "logo": "/Images/html.png",
+      "name": "HTML5"
+    },
+    {
+      "logo": "/Images/css.png",
+      "name": "CSS"
+    },
+    {
+      "logo": "/Images/javascript.png",
+      "name": "Java Script"
+    },
+    {
+      "logo": "/Images/atom.png",
+      "name": "React.JS"
+    },
+    {
+      "logo": "/Images/tailwindc.png",
+      "name": "TailwindCSS"
+    },
+    {
+      "logo": "/Images/bootstrap.png",
+      "name": "Bootstrap"
+    },
+    {
+      "logo": "/Images/nextjs.png",
+      "name": "Next.JS"
+    },
+    {
+      "logo": "/Images/jquery.png",
+      "name": "JQuery"
+    },
+    {
+      "logo": "/Images/flutterr.png",
+      "name": "Flutter"
+    },
+    {
+      "logo": "/Images/atom.png",
+      "name": "ReactNative"
+    }
+  ],
+  "Backend": [
+    {
+      "logo": "/Images/c.png",
+      "name": "C"
+    },
+    {
+      "logo": "/Images/cplus.png",
+      "name": "C++"
+    },
+    {
+      "logo": "/Images/python.png",
+      "name": "Python"
+    },
+    {
+      "logo": "/Images/node.png",
+      "name": "Node.JS"
+    },
+    {
+      "logo": "/Images/mongodb.png",
+      "name": "MongoDB"
+    },
+    {
+      "logo": "/Images/express.png",
+      "name": "ExpressJs"
+    },
+    {
+      "logo": "/Images/sql.png",
+      "name": "MySQL"
+    },
+    {
+      "logo": "/Images/firebase.png",
+      "name": "Firebase"
+    },
+    {
+      "logo": "/Images/django.png",
+      "name": "Django"
+    }
+  ],
+  "Certificates":[
+    {
+      "title":"Programming in python",
+      "brand":"Internshala",
+      "year":"2021",
+      "logo":"/Images/internshala.png",
+      "link":"https://drive.google.com/file/d/1irOMGz2pG7TaTeVOyLD1ElQ5FDOkMT5s/view?usp=drive_link",
+      "skills":[
+        {
+          "logo": "/Images/python.png",
+          "name": "Python"
+        },
+        {
+          "logo": "/Images/oops.png",
+          "name": "oops"
+        },
+        {
+          "logo": "/Images/gui.png",
+          "name": "gui"
+        }
+      ]
+    },
+    {
+      "title":"Full Stack in Python",
+      "brand":"Pyspider",
+      "year":"2023",
+      "logo":"/Images/internshala.png",
+      "link":"https://drive.google.com/file/d/1irOMGz2pG7TaTeVOyLD1ElQ5FDOkMT5s/view?usp=drive_link",
+      "skills":[
+        {
+          "logo": "/Images/python.png",
+          "name": "Python"
+        },
+        {
+          "logo": "/Images/oops.png",
+          "name": "oops"
+        },
+        {
+          "logo": "/Images/gui.png",
+          "name": "gui"
+        }
+      ]
+    }
+  ]
+}
