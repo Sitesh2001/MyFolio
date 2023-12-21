@@ -5,6 +5,7 @@ import About from './About'
 import Skills from './Skills'
 import { Certificates } from './Certificates'
 import Projects from './Projects'
+import Contact from './Contact'
 
 export default function MainContainer() {
   return (
@@ -15,6 +16,7 @@ export default function MainContainer() {
         <Skills/>
         <Certificates/>
         <Projects/>
+        <Contact/>
     </div>
   )
 }

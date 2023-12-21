@@ -6,23 +6,22 @@ export const CertificateBox = (props) => {
 
   const handleMouseEnter = () => {
     setIsHovered(false);
-    // Additional logic when mouse enters
   };
 
   const handleMouseLeave = () => {
     setIsHovered(true);
-    // Additional logic when mouse leaves
   };
   return (
-    <div className="flex flex-row-reverse mb-1">
+    <div className={`md:w-[100%] flex ${props.i % 2 === 0? 'flex-row':'flex-row-reverse'}`}>
+    <div className={`flex justify-center gap-x-2 md:basis-[50.6%] md:justify-start ${props.i % 2 !== 0? 'flex-row':'md:flex-row-reverse'}`}>
         <div className="flex flex-col items-center">
-            <div className="w-4 h-4 border rounded-full"></div>
-            <div className="h-full border-[1.5px] w-0 mt-1"></div>
+            <div className="w-4 h-4 border rounded-full border-slate-300"></div>
+            <div className="h-full border-[1.5px] w-0 mt-1 border-slate-300"></div>
         </div>
         <div
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-         className="flex flex-col gap-3 transition-all duration-500 ease-in-out max-h-[182px] hover:max-h-[210px] cursor-pointer shadow-custom m-2 rounded-md p-8 border-lg group">
+         className="flex flex-col gap-3 transition-all duration-500 ease-in-out p-5 max-h-[182px] hover:max-h-[210px] cursor-pointer shadow-custom rounded-md border-lg group">
       <div className="flex flex-wrap gap-3 items-center">
         <div className="h-full">
           <img className="w-[60px] h-[70px]" src={props.logo} alt="Internshala" />
@@ -46,11 +45,12 @@ export const CertificateBox = (props) => {
         <a
           href={props.link}
           target="__blank"
-          className="py-2.5 mt-5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-500 hover:bg-gray-100 hover:text-blue-700 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+          className="py-2.5 mt-5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-300 hover:bg-slate-50 hover:text-blue-700 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
         >
           Certificate
         </a>
       </div>
+    </div>
     </div>
     </div>
   );

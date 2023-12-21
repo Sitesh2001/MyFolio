@@ -2,10 +2,13 @@ import React from 'react';
 import profile from "../Assets/img1.png"
 import { TextContainer } from './TextContainer';
 import { SubHeading } from './SubHeading';
+import Navigation from './Navigation';
 
 const About = () => {
   return (
-    <div className='w-full h-auto text-center mt-20'>
+    <>
+    <Navigation/>
+    <div id='about' className='w-full h-auto text-center mt-20'>
         <SubHeading p = "Get To Know More" h1 = "About Me"/>
         <div className='flex w-full flex-wrap h-auto justify-center items-center gap-5'>
           <section>
@@ -19,6 +22,7 @@ const About = () => {
           </section>
         </div>
     </div>
+    </>
   )
 }
 

@@ -10,7 +10,7 @@ const SkillContainer = (props) => {
         <div className='flex justify-center items-center p-3 h-full w-full flex-wrap'>
           {props.data.map((skill,index) => {
             return <div key={index} className="flex flex-[50%] items-center"><div className='flex
-            w-full items-center pl-8 gap-3 pt-2'><img className='w-8' src={skill.logo} alt={skill.name} /> <span>{skill.name}</span></div></div>
+            w-full items-center pl-8 gap-3 pt-2'><img className={`w-8 ${skill.name === 'React.JS' || skill.name ==='ReactNative'?'animate-spin animate-duration-[2s]':''}`} src={skill.logo} alt={skill.name} /> <span>{skill.name}</span></div></div>
           })}
         </div>
       </div>

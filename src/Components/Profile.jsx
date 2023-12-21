@@ -18,11 +18,11 @@ export const Profile = () => {
           <TextLoader/>
           </section>
           <section>
-            <Btn name = "Download CV" styles = 'bg-transparent border text-black' hover = {hoverStyle}/>
-            <Btn name = "Contact Me" sty = 'bg-slate-700 text-white hover:bg-slate-600'/>
+            <Btn name = "Download CV" link = "Resume.pdf" styles = 'bg-transparent border text-black' hover = {hoverStyle}/>
+            <Btn name = "Contact Me" link = "#contact" sty = 'bg-slate-700 text-white hover:bg-slate-600'/>
           </section>
-          <section className='flex gap-4 text-2xl'>
-           <span className=' cursor-pointer'><FaGithub /></span> <span className='cursor-pointer'><BiLogoLinkedin /></span>
+          <section className='flex gap-4 text-3xl'>
+           <a href='https://github.com/sitesh2001' rel="noreferrer" target='_blank' className=' cursor-pointer hover:text-slate-600'><FaGithub /></a> <a rel="noreferrer" href='https://in.linkedin.com/in/sitesh2001' target='_blank' className='cursor-pointer hover:text-[#0e76a8]'><BiLogoLinkedin /></a>
           </section>
           </div>
         </div>

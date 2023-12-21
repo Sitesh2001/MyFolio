@@ -2,12 +2,14 @@ import React from "react";
 import { SubHeading } from "./SubHeading";
 import { CertificateBox } from "./CertificateBox";
 import data from "../Data/Data.json";
-
+import Navigation from "./Navigation";
 
 export const Certificates = () => {
   return (
-    <div className="flex flex-col w-full h-auto items-center justify-center mt-20">
-      <SubHeading p="See the" h1="Training and certificates" />
+    <>
+     <Navigation/>
+    <div id="certificate" className="flex flex-col w-full h-auto items-center justify-center gap-y-3 mt-20">
+      <SubHeading p="See My" h1="Training and certificates" />
       {
         data.Certificates.map((data, index)=>{
           return( 
@@ -15,5 +17,6 @@ export const Certificates = () => {
         )})
       }
     </div>
+    </>
   );
 };

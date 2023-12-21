@@ -122,5 +122,42 @@
         }
       ]
     }
+  ],
+  "Projects":[
+      {
+        "name": "pixanet",
+        "type": "web",
+        "git": "gitlink",
+        "detail": "1"
+      },
+      {
+        "name": "Foundation",
+        "type": "book",
+        "git": "N/A",
+        "detail": "1"
+      },
+      {
+        "name": "Neuromancer",
+        "type": "book",
+        "git": "N/A",
+        "detail": "1"
+      }
+  ],
+  "Contact":[
+    {
+      "logo":"/Images/email.png",
+      "name":"sitesh11072001@gmail.com",
+      "url":"mailto:sitesh11072001@gmail.com"
+    },
+    {
+      "logo":"/Images/github.png",
+      "name":"GitHub",
+      "url":"https://github.com/sitesh2001"
+    },
+    {
+      "logo":"/Images/linkedin.png",
+      "name":"LinkedIn",
+      "url":"https://in.linkedin.com/in/sitesh2001"
+    }
   ]
 }
