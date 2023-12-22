@@ -41,11 +41,11 @@ export const CertificateBox = (props) => {
         })}
       </article>
       <div
-       className={`transition-opacity ${isHovered ? 'duration-[1.5s]':'duration-[.1s]'} opacity-0 group-hover:opacity-100 mt-2`}>
+       className={`transition-opacity  ${isHovered ? 'duration-[1.5s]':'duration-[.1s]'} opacity-0 group-hover:opacity-100 mt-2`} >
         <a
           href={props.link}
           target="__blank"
-          className="py-2.5 mt-5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-300 hover:bg-slate-50 hover:text-blue-700 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+            className={`${props.cursor} py-2.5 mt-5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-300 hover:bg-slate-50 hover:text-blue-700 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700`}
         >
           Certificate
         </a>

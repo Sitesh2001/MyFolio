@@ -8,7 +8,7 @@ function Projects() {
   return (
     <>
     <Navigation/>
-    <div id='projects' className='flex h-auto w-full flex-col mt-20'>
+    <div id='projects' className='flex h-auto w-full flex-col mt-14 md:mt-20'>
         <div className='w-full'>
             <SubHeading p = "Browse My Recent" h1 = "Projects"/>
         </div>

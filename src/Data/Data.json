@@ -105,20 +105,21 @@
       "title":"Full Stack in Python",
       "brand":"Pyspider",
       "year":"2023",
-      "logo":"/Images/internshala.png",
+      "logo":"/Images/qspider.jpg",
+      "cursor":"cursor-not-allowed",
       "link":"https://drive.google.com/file/d/1irOMGz2pG7TaTeVOyLD1ElQ5FDOkMT5s/view?usp=drive_link",
       "skills":[
         {
-          "logo": "/Images/python.png",
-          "name": "Python"
+          "logo": "/Images/html.png",
+          "name": "HTML5"
         },
         {
-          "logo": "/Images/oops.png",
-          "name": "oops"
+          "logo": "/Images/css.png",
+          "name": "CSS"
         },
         {
-          "logo": "/Images/gui.png",
-          "name": "gui"
+          "logo": "/Images/javascript.png",
+          "name": "JavaScript"
         }
       ]
     }
