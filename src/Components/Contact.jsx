@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
      <Navigation/>
-    <div id='contact' className=' flex flex-col items-center gap-y-10 mt-14 md:mt-20'>
+    <div id='contact' className=' flex flex-col items-center gap-y-10 mt-8 md:mt-20'>
         <SubHeading h1 = "Contact Me" p = "Get in Touch" />
             <div className='border mx-3 p-4 gap-3 border-slate-500 rounded-2xl flex flex-wrap justify-center' >
                 {

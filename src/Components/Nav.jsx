@@ -1,6 +1,5 @@
 import React, { useState,useEffect,useRef } from "react";
 import Navitems from "./Navitems";
-import Logo from "../Assets/Black.png";
 
 const Nav = () => {
   const [isOpen, setOpen] = useState(false);
@@ -26,7 +25,7 @@ const Nav = () => {
   return (
     <nav className="w-full flex h-20 justify-around items-center mt-5">
       <div>
-        <img className=" w-32" src={Logo} alt="Name" />
+        <img className=" w-32" src="/Black.png" alt="Logo" />
       </div>
       <div className=" relative md:static">
         <div ref={navButtonRef} onClick={handleToggle} className="md:hidden flex items-center justify-center gap-x-[6px] cursor-pointer p-2">
@@ -38,7 +37,7 @@ const Nav = () => {
           style={clipPath}
           className={`flex flex-col w-0 h-0 translate-x-[-35%] translate-y-[0%] md:flex-row absolute md:translate-x-0 md:translate-y-0 md:w-auto md:h-auto md:static text-xl md:gap-6 md:items-center transition-all duration-300 ${
             isOpen
-              ? " p-24 md:p-0 justify-around items-center w-[123px] h-[250px] translate-x-[10px] translate-y-[10px] bg-black/[.05] md:bg-white"
+              ? " p-24 md:p-0 justify-around items-center w-[123px] h-[250px] translate-x-[-68px] translate-y-[0] bg-black/[.05] md:bg-white"
               : null
           } `}
         >

@@ -8,9 +8,9 @@ const Skills = () => {
   return (
     <>
     <Navigation/>
-    <div id='skill' className='w-full flex flex-col text-center mt-14 md:mt-20'>
+    <div id='skill' className='w-full flex flex-col text-center mt-4 md:mt-20'>
       <SubHeading p='Explore My' h1='Skills' />
-      <div className='w-full h-full flex justify-center items-center gap-5 flex-wrap'>
+      <div className='w-full h-full flex justify-center mt-2 items-center gap-5 flex-wrap'>
         <SkillContainer title = "Frontend" data = {data.Frontend}/>
         <SkillContainer title = "Backend" data = {data.Backend}/>
       </div>

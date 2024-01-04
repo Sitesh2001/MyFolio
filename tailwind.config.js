@@ -17,6 +17,9 @@ export const theme = {
       custom: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px',
       project: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
     },
+    screens: {
+      'xs': {'max': '425px'}
+    }
   },
 }
 export const plugins = [
